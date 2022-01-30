@@ -66,6 +66,7 @@
   <button on:click={toggle}>Log in</button>
 {/if}
 
+<hr>
 
 {#if x > 10}
   <p>{x} is greater than 1-</p>
@@ -78,6 +79,8 @@
 {/if}
 
 
+<hr>
+
 <ul>
   {#each cats as cat, i} <!-- or {#each cats as { id, name }, i} -->
     <li>
@@ -88,15 +91,17 @@
   {/each}
 </ul>
 
+<hr>
 
 <button on:click={handleClick}>
   Remove first thing
 </button>
 
-{#each things as thing (thing.id)}
+{#each things as thing (thing.id)} <!-- Here, (thing.id) is the key, which tells Svelte how to figure out which DOM node to change when the component updates. -->
   <Thing name={thing.name} />
 {/each}
 
+<hr>
 
 <button on:click={handleClickGenerateImages}>Generate Images</button>
 
@@ -126,4 +131,9 @@
 	.articles img {
 		max-width: 100%;
 	}
+
+  hr {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
 </style>

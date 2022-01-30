@@ -12,7 +12,12 @@
 	import Logic from "./pages/Logic.svelte"
 
 	// -------------------------------------------------------
+
 	import Events from './pages/Events.svelte'
+
+	// -------------------------------------------------------
+
+	import Bindings from "./pages/Bindings.svelte";
 </script>
 
 <main>
@@ -32,6 +37,10 @@
 	<hr>
 
 	<Events />
+
+	<hr>
+
+	<Bindings />
 </main>
 
 <style>

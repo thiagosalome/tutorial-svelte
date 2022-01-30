@@ -1,10 +1,15 @@
 <script>
   let count = 0
-	$: doubled = count * 2 // Reactive values: Some parts of a component's state need to be computed from other parts
 
 	function incrementCount () {
 		count += 1
 	}
+
+	// -------------------------------------------------------
+
+	$: doubled = count * 2 // Reactive values: Some parts of a component's state need to be computed from other parts
+
+	// -------------------------------------------------------
 
 	// We can log the value of count whenever it changes
 	$: {
@@ -37,5 +42,14 @@
 <button on:click={incrementCount}>Clicked {count} {count === 1 ? 'time' : 'times'}</button>
 <p>{count} doubled is {doubled}</p>
 
+<hr>
+
 <button on:click={addNumber}>Add a number</button>
 <p>{numbers.join(' + ')} = {sum}</p>
+
+<style>
+	hr {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
+</style>

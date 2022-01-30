@@ -19,4 +19,13 @@
 
 <Nested answer={42} />
 
+<hr>
+
 <Info {...pkg} />
+
+<style>
+  hr {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
+</style>
