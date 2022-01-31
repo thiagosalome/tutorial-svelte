@@ -126,6 +126,22 @@
 	let h;
 	let size = 42;
 	let text = 'edit me';
+
+	// -------------------------------------------------------
+
+	import Keypad from "../components/Keypad.svelte";
+
+	let pin;
+	$: view = pin ? pin.replace(/\d(?!$)/g, '•') : 'enter your pin';
+
+	function handleSubmitKeypad() {
+		alert(`submitted ${pin}`);
+	}
+
+	// -------------------------------------------------------
+
+	import InputField from "../components/InputField.svelte";
+	let field
 </script>
 
 <h2>Bindings</h2>
@@ -309,6 +325,17 @@
 <div bind:clientWidth={w} bind:clientHeight={h}>
 	<span style="font-size: {size}px">{text}</span>
 </div>
+
+<hr>
+
+<h3 style="color: {pin ? '#333' : '#ccc'}">{view}</h3>
+
+<Keypad bind:value={pin} on:submit={handleSubmitKeypad} />
+
+<hr>
+
+<InputField bind:this={field} />
+<button on:click={() => field.focus()}>Focus field</button>
 
 <style>
   form {
