@@ -18,9 +18,6 @@
 	// -------------------------------------------------------
 
 	import Bindings from "./pages/Bindings.svelte";
-
-	// -------------------------------------------------------
-	import Lifecycle from "./pages/Lifecycle.svelte";
 </script>
 
 <main>
@@ -42,12 +39,8 @@
 	<Events />
 
 	<hr>
-	
-	<Bindings />
-	
-	<hr>
 
-	<Lifecycle />
+	<Bindings />
 </main>
 
 <style>
