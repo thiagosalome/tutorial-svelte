@@ -98,4 +98,9 @@
 		width: 100%;
 		height: 200px;
 	}
+
+  hr {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
 </style>

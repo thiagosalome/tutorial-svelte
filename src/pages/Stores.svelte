@@ -63,7 +63,7 @@
 
 <hr>
 
-<h1>The count is {$customCount}</h1>
+<p>The count is {$customCount}</p>
 
 <button on:click={customCount.increment}>+</button>
 <button on:click={customCount.decrement}>-</button>
@@ -76,3 +76,10 @@
 <button on:click="{() => $name += '!'}">
 	Add exclamation mark!
 </button>
+
+<style>
+  hr {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
+</style>

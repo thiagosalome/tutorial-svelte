@@ -20,10 +20,16 @@
 	import Bindings from "./pages/Bindings.svelte";
 
 	// -------------------------------------------------------
+
 	import Lifecycle from "./pages/Lifecycle.svelte";
 
 	// -------------------------------------------------------
+
 	import Stores from "./pages/Stores.svelte";
+
+	// -------------------------------------------------------
+
+	import Motion from "./pages/Motion.svelte";
 </script>
 
 <main>
@@ -55,6 +61,10 @@
 	<hr>
 
 	<Stores />
+
+	<hr>
+
+	<Motion />
 </main>
 
 <style>
