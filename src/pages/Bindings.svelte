@@ -286,7 +286,7 @@
 
 <hr>
 
-<h1>Caminandes: Llamigos</h1>
+<h3>Caminandes: Llamigos</h3>
 <p>From <a href="https://studio.blender.org/films">Blender Studio</a>. CC-BY</p>
 
 <div>
