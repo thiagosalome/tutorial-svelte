@@ -21,6 +21,9 @@
 
 	// -------------------------------------------------------
 	import Lifecycle from "./pages/Lifecycle.svelte";
+
+	// -------------------------------------------------------
+	import Stores from "./pages/Stores.svelte";
 </script>
 
 <main>
@@ -48,6 +51,10 @@
 	<hr>
 
 	<Lifecycle />
+
+	<hr>
+
+	<Stores />
 </main>
 
 <style>
