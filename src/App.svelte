@@ -30,6 +30,10 @@
 	// -------------------------------------------------------
 
 	import Motion from "./pages/Motion.svelte";
+
+	// -------------------------------------------------------
+
+	import Transitions from "./pages/Transitions.svelte";
 </script>
 
 <main>
@@ -65,6 +69,10 @@
 	<hr>
 
 	<Motion />
+
+	<hr>
+
+	<Transitions />
 </main>
 
 <style>
