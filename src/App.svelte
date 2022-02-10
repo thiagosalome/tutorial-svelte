@@ -38,6 +38,10 @@
 	// -------------------------------------------------------
 
 	import Animations from "./pages/Animations.svelte";
+
+	// -------------------------------------------------------
+
+	import Actions from "./pages/Actions.svelte";
 </script>
 
 <main>
@@ -81,6 +85,10 @@
 	<hr>
 
 	<Animations />
+
+	<hr>
+
+	<Actions />
 </main>
 
 <style>
