@@ -249,6 +249,11 @@
 </button>
 
 <style>
+	hr {
+    max-width: 500px;
+    margin: 1rem auto;
+  }
+	
   .relative {
     position: relative;
     height: 200px;
