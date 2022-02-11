@@ -45,6 +45,7 @@
 
   button {
 		display: block;
+    margin: 0.5rem auto;
 	}
 
 	.selected {
@@ -53,10 +54,7 @@
 	}
 
   .wrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
 
   .big {

@@ -46,6 +46,10 @@
 	// -------------------------------------------------------
 
 	import Classes from "./pages/Classes.svelte";
+
+	// -------------------------------------------------------
+
+	import ComponentComposition from "./pages/ComponentComposition.svelte";
 </script>
 
 <main>
@@ -97,6 +101,10 @@
 	<hr>
 
 	<Classes />
+
+	<hr>
+
+	<ComponentComposition />
 </main>
 
 <style>
