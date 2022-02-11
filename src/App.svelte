@@ -42,6 +42,10 @@
 	// -------------------------------------------------------
 
 	import Actions from "./pages/Actions.svelte";
+
+	// -------------------------------------------------------
+
+	import Classes from "./pages/Classes.svelte";
 </script>
 
 <main>
@@ -89,6 +93,10 @@
 	<hr>
 
 	<Actions />
+
+	<hr>
+
+	<Classes />
 </main>
 
 <style>
