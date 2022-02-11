@@ -50,6 +50,10 @@
 	// -------------------------------------------------------
 
 	import ComponentComposition from "./pages/ComponentComposition.svelte";
+
+	// -------------------------------------------------------
+
+	import ContextApi from "./pages/ContextApi.svelte";
 </script>
 
 <main>
@@ -105,6 +109,10 @@
 	<hr>
 
 	<ComponentComposition />
+
+	<hr>
+
+	<ContextApi />
 </main>
 
 <style>
