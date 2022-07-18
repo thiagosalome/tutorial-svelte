@@ -62,6 +62,10 @@
 	// -------------------------------------------------------
 
 	import ModuleContext from "./pages/ModuleContext.svelte";
+
+	// -------------------------------------------------------
+
+	import Debugging from "./pages/Debugging.svelte";
 </script>
 
 <main>
@@ -129,6 +133,10 @@
 	<hr />
 
 	<ModuleContext />
+
+	<hr />
+
+	<Debugging />
 </main>
 
 <style>
