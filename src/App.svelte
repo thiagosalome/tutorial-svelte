@@ -58,6 +58,10 @@
 	// -------------------------------------------------------
 
 	import SpecialElements from "./pages/SpecialElements.svelte";
+
+	// -------------------------------------------------------
+
+	import ModuleContext from "./pages/ModuleContext.svelte";
 </script>
 
 <main>
@@ -121,6 +125,10 @@
 	<hr />
 
 	<SpecialElements />
+
+	<hr />
+
+	<ModuleContext />
 </main>
 
 <style>
