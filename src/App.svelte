@@ -54,6 +54,10 @@
 	// -------------------------------------------------------
 
 	import ContextApi from "./pages/ContextApi.svelte";
+
+	// -------------------------------------------------------
+
+	import SpecialElements from "./pages/SpecialElements.svelte";
 </script>
 
 <main>
@@ -113,6 +117,10 @@
 	<hr>
 
 	<ContextApi />
+
+	<hr />
+
+	<SpecialElements />
 </main>
 
 <style>
